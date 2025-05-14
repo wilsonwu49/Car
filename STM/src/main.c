@@ -1,3 +1,9 @@
+/*
+ * timer.c
+ * Alisa Yurevich, Wilson Wu, Duncan DeFonce, EE14, Spring 2025
+ *
+ */
+
 #include "ee14lib.h"
 #include "car.h"
 #include "dac.h"
@@ -32,8 +38,7 @@ void delay(int ms) {
 }
 
 /*I2C1_EV
-* I think this is the correct name for the linker to automatically do the handler
-* I think this is called whenever a) we receive an I2C address or b) if we 
+* Called whenever a) we receive an I2C address or b) if we 
 * receive something else over I2C
 **/
 void I2C1_EV_IRQHandler(void){
@@ -48,7 +53,7 @@ void I2C1_EV_IRQHandler(void){
         performed = false;
     }
 
-    //clear nack ?
+    //clear nack 
     if(I2C1->ISR & I2C_ISR_NACKF){
         I2C1->ICR = I2C_ICR_NACKCF;
     }  
@@ -88,7 +93,7 @@ void  SysTick_Handler(void) {
 /**
  * perform_command
  * Description : main logic for performing each function. Performs each action 
- * exactly once by using the performed command** */
+ * exactly once by using the performed bool. */
 
 void perform_command(){
     if(performed == false){
@@ -122,11 +127,9 @@ void config_dac_all(int frequency_hz){
     dac_init(); //config A3 further
 }
 
-// TO DO:
-// horn
-// make turns at current speed , maybe do diff turns idk
-// maybe when ur not pressing it doesnt move? 
-// and maybe the more u press r the harsher the turn
+
+
+
 
 int main(){
     initialize_motor();
