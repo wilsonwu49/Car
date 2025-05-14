@@ -1,3 +1,9 @@
+/*
+ * timer.c
+ * Steven Bell, EE14, Spring 2025
+ *
+ */
+
 #include "ee14lib.h"
 
 // Mapping of Nucleo pin number to GPIO port
