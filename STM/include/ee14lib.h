@@ -1,4 +1,6 @@
 /* Header file for all EE14lib functions. */
+/* Created by Steven Bell, Spring 2025, Tufts University*/
+/*Edited by Alisa Yurevich, Wilson Wu, and Duncan DeFonce*/
 
 #ifndef EE14LIB_H
 #define EE14LIB_H
