@@ -1,5 +1,5 @@
 /*
- * timer.c
+ * dac.c
  * Wilson Wu, EE14, Spring 2025
  *
  */
