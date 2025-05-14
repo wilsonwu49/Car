@@ -1,0 +1,8 @@
+Created by Alisa Yurevich, Wilson Wu, and Duncan DeFonce
+
+This project implements Wi-Fi communication and interfaces two microcontrollers to build a remote-controlled car with a horn. 
+
+The ESP32-C3-devkitc-02 generates a WiFi port. A laptop connects to it and runs the python script to transmit commands.
+
+The STM32 Nucleo L432KC receives the command through I2C (ESP = controller, STM = Peripheral). This generates an interrupt, which 
+adjusts motor speed (PWM duty), motor direction (H-Bridge), or sounds the horn (DAC).
