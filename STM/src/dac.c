@@ -1,3 +1,9 @@
+/*
+ * timer.c
+ * Wilson Wu, EE14, Spring 2025
+ *
+ */
+
 #include "ee14lib.h"
 #include "dac.h"
 
