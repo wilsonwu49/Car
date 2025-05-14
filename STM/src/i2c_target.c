@@ -1,3 +1,9 @@
+/*
+ * i2c_target.c
+ * Alisa Yurevich and Duncan DeFonce, EE14, Spring 2025
+ *
+ */
+
 #include "ee14lib.h"
 #include "stm32l432xx.h"
 
@@ -39,7 +45,6 @@ void i2c_target_init(void){
     I2C1->CR1 |= I2C_CR1_RXIE; //rx interrupt
     
     NVIC_EnableIRQ(I2C1_EV_IRQn);
-    // NVIC_SetPriority(I2C1_EV_IRQn, 0); //erm OLOLONDKPOJBQWu
     
     I2C1->CR1 |= I2C_CR1_PE; // enable the peripheral
 
