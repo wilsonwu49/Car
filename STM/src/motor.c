@@ -1,3 +1,10 @@
+/*
+ * timer.c
+ * Alisa Yurevich, Wilson Wu, Duncan DeFonce, EE14, Spring 2025
+ *
+ */
+
+
 #include "ee14lib.h"
 #include "car.h"
 #include "dac.h"
