@@ -1,3 +1,10 @@
+/*
+ * timer.c
+ * Steven Bell, EE14, Spring 2025
+ *
+ */
+
+
 #include "ee14lib.h"
 
 /* timer_config_pwm
