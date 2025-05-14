@@ -1,5 +1,5 @@
 /*
- * timer.c
+ * gpio.c
  * Steven Bell, EE14, Spring 2025
  *
  */
