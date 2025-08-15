@@ -7,7 +7,7 @@
 #include "ee14lib.h"
 #include "dac.h"
 
-uint16_t sin_table[300];
+uint16_t sin_table[100];
 
 // Initialize the DAC for the STM32L432KC:
 // Enables the DAC for use, configures a TIM6 trigger, 
