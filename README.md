@@ -41,7 +41,7 @@ are sent through the Python client to the ESP32 to be sent to the STM32. This se
 |E|Accelerate (can be until max speed)|
 |F|Full Stop|
 |H|Horn ("beep beep")|
-|R|Reverse|
+|R|Reverse (flips direction, other commands still work)|
 
 ## Hardware
 - ESP32-C3
