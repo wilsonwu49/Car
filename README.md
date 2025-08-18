@@ -49,5 +49,5 @@ are sent through the Python client through to the ESP32 to be sent to the STM32.
 - I2C for Microcontroller Communication
 - Python Client
 - WiFi for User Interface
-## Poster
-[Car Project Poster.pdf](https://github.com/user-attachments/files/21840571/Car.Project.Poster.pdf)
+## Poster 
+![Car Project Poster](https://github.com/wilsonwu49/Car/blob/d1dabb1e63b5149365da9348dca5ae5427c585c7/Car%20Project%20Poster.pdf)
