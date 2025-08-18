@@ -32,6 +32,7 @@ are sent through the Python client to the ESP32 to be sent to the STM32. This se
 - Low-latency I²C communication between ESP32 and STM32
 
 ### Controls
+Turns work by accelerating one wheel's PWM
 |Command|Result|
 |---|---|
 |W|Drive Forward|
