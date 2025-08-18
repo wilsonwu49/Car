@@ -50,5 +50,5 @@ are sent through the Python client through to the ESP32 to be sent to the STM32.
 - Python Client
 - WiFi for User Interface
 ## Poster 
+<img width="7200" height="4800" alt="Car Project Poster png" src="https://github.com/user-attachments/assets/329e0825-eadb-4234-8d99-493b614126dc" />
 
-[Car Project Poster.pdf](https://github.com/user-attachments/files/21840768/Car.Project.Poster.pdf)
